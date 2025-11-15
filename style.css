@@ -632,3 +632,124 @@ html, body {
      color: #fff;
 }
 /********** Footer Copyright CSS Ends **********/
+
+/********** Responsive CSS Starts **********/
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .width-100,
+    .width-50,
+    .width-25,
+    .width-75,
+    .width-80,
+    .width-60,
+    .width-40,
+    .width-33,
+    .width-30,
+    .width-20 {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .header-top .width-50 {
+        text-align: center;
+    }
+
+    .header-left,
+    .header-right {
+        float: none;
+        display: inline-block;
+    }
+    
+    .header-menu {
+        padding: 10px 0;
+    }
+
+    .header-menu .width-40,
+    .header-menu .width-20 {
+        text-align: center;
+    }
+    
+    .logo {
+        position: static;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .header-menu ul {
+        float: none;
+        text-align: center;
+    }
+
+    .header-menu ul li {
+        float: none;
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .header-menu ul[style="float:right;"] {
+        float: none !important;
+    }
+
+    .main-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .about-img img {
+        padding: 0;
+    }
+
+    .about-detail h1 {
+        font-size: 24px;
+    }
+
+    .notice-board-sect {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .course-list li {
+        width: 48%;
+        margin: 1%;
+    }
+
+    .principal-info {
+        padding: 15px;
+    }
+
+    .gallery .width-25 {
+        width: 50%;
+    }
+
+    .counter {
+        margin-bottom: 20px;
+    }
+
+    .placement ul li {
+        width: 48%;
+        margin: 1%;
+    }
+
+    .tetimonial {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .footer-section .width-33 {
+        margin-bottom: 30px;
+    }
+
+    .footer-section p {
+        padding: 0;
+    }
+}
+
+/********** Responsive CSS Ends **********/
